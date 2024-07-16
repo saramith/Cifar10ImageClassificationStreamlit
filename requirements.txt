@@ -1,6 +1,6 @@
 flask
 flask-restful
-numpy
+numpy<2.0.0
 matplotlib
 scikit-learn
 Pillow
