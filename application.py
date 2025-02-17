@@ -29,7 +29,7 @@ if option == "Predict":
         st.write("Prediction result:")
         st.json(result)
 
-        st.image(uploaded_file, caption='Uploaded Image.', use_column_width=True)
+        st.image(uploaded_file, caption='Uploaded Image.', use_container_width=True)
 
 elif option == "Evaluate":
     st.header("Evaluate Model")
